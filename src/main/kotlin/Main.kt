@@ -4,7 +4,8 @@ fun main() {
     create("Maria","34","Deo","23")
     integers()
     towns()
-    words("maria", "irene", "Gladys")
+   var x = words("maria", "irene", "Gladys")
+    println(x.contentToString())
 
 }
 //A FUNCTION THAT TAKES IN 4 STRINGS AND CREATES AN ARRAY OUT OF THEM THEN PRINTS OUT THE ARRAY
